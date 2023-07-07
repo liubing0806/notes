@@ -1,14 +1,17 @@
 # 原理
 模板可以看作是一群不同功能的节点的组合，为了实现一个功能（例如接口请求），需要不同的步骤。每个节点或者多个节点可以实现一个步骤，在`rule-ste`中定义和实现节点的功能
 节点在模板和代码里面被表现为为`filter`
+
 一个模板在运行时拥有一个独立的上下文，在代码里表现为`Context`类,核心的方法是`getVariable`和`setVariable`,即向上下文中添加或者获取变量.`Context`中维护了一个全局的`Map`,用来保存每个filter产生的结果和全局参数
 对于每一个`filter`,需要继承抽象类`SteFilter`,这个抽象类实现了`Params`这个接口
 这个接口定义了向上下文中添加参数和获得参数两个方法.对于`SteFilter`这个抽象类而言,它定义了所有的`filter`的行为,即每个`filter`都需要实现`process`,这个方法是`filter`的核心逻辑,主要的功能在这个方法里面实现
+
 模板的执行主要依赖`SteDocumentProcess`这个类,这个类定义了几个模板执行的参数
 其中`ResultBuilder`一般在模板最后定义,作用为选择结果写入的类和方法
 在模板执行前,会先将`ResultBuilder`进行参数构建,因为模板处理数据的逻辑是边读边写
 然后根据`SteFilter` 的 `processLine` 方法进行全模板Filter的初始化,将其添加到``SteDocumentProcess``的`builders`中,开始进行参数的初始化
-在所有`filter`的参数都进行了初始化之后,开始按照顺序对所有的`filter`进行处理
+
+在所有`filter`的参数都进行了初始化之后,开始按照顺序对所有的`filter`进行处理,全局有一个布尔类型的标记位为控制着是否停止模板的执行
 为了保证循环处理能够正常进行,如果不是第一个`builder`,需要将其重置:重置意思是有循环处理的`filter`的状态进行初始化,即不再运行中和没有下一次循环
 `filter`的循环意思是如果`filter`实现了`LoopFilter`接口,证明这个`filter`需要进行循环处理,核心方法是`hasNext`,`SteDocumentProcess`类根据这个方法进行判断
 如果需要循环,就将这个`builder`对应的序号添加到栈中,
