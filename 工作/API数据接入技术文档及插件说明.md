@@ -14,7 +14,8 @@
 在所有`filter`的参数都进行了初始化之后,开始按照顺序对所有的`filter`进行处理,全局有一个布尔类型的标记位为控制着是否停止模板的执行
 为了保证循环处理能够正常进行,如果不是第一个`builder`,需要将其重置:重置意思是有循环处理的`filter`的状态进行初始化,即不再运行中和没有下一次循环
 `filter`的循环意思是如果`filter`实现了`LoopFilter`接口,证明这个`filter`需要进行循环处理,核心方法是`hasNext`,`SteDocumentProcess`类根据这个方法进行判断是否有下一个循环
-如果需要循环,就将这个`builder`对应的序号添加到栈中,当一轮`builder`的循环结束后,将zh`builder`的id设置下一轮循环的开始.然后重复这个过程,直到循环的栈为空,此时退出循环,完成模板的执行
+如果需要循环,就将这个`builder`对应的序号添加到栈中,当一轮`builder`的循环结束后,将栈顶的`builder`的id设置下一轮循环的开始.然后重复这个过程,直到循环的栈为空,此时退出循环,完成模板的执行
+写入到文件的过程是在一轮小循环的结束
 
 # 插件说明
 ## 模板全局常量及作用
@@ -81,9 +82,7 @@ function f2(f1_arg...){
   
 
 1. SourceBuilder 用于定义主方法，整理流程执行的入口。需要使用source.class:SourceBuilder定义。
-    
 2. ConfigProcessBuilder 子方法定义。需要使用process.0.class:ConfigProcessBuilder定义，其中0用于描述顺序，方便维护，无实际含义。
-    
 
   
 
@@ -119,8 +118,13 @@ filter.parameters.to:shop_count
 ```
 
 ### GenerateJsonFilter：生成嵌套Json的插件
+```
 
+```
 ### ToJsonFilter：转化Json插件
+```
+
+```
 
 ## 循环终止插件
 
