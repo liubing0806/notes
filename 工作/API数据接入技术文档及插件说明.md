@@ -125,7 +125,9 @@ filter.parameters.to:shop_count
 ```
 
 ```
-
+### JsonValueExtractForBatch : 批量解析JSON
+### JsonValueExtractForLevel : 层级解析
+### JsonArrayConditionValueExtract: 提取JSONArray中的符合条件的值
 ## 循环终止插件
 
 ### JsonArrayEmptyFilter：空数组跳出
