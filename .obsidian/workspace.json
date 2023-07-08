@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/Kubernetes/基本概念.md",
+                "file": "工作/API数据接入技术文档及插件说明.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/Kubernetes/基本概念.md",
+                "file": "工作/API数据接入技术文档及插件说明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/Kubernetes/基本概念.md",
+                "file": "工作/API数据接入技术文档及插件说明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/Kubernetes/基本概念.md"
+                "file": "工作/API数据接入技术文档及插件说明.md"
               }
             }
           }
@@ -148,10 +148,8 @@
   },
   "active": "6ab36741beeb89aa",
   "lastOpenFiles": [
-    "工作/API数据接入技术文档及插件说明.md",
     "学习/Kubernetes/基本概念.md",
     "学习/Kubernetes",
-    "学习",
     "学习"
   ]
 }
