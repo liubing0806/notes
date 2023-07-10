@@ -289,7 +289,7 @@ params.offset:num
 params.sid:sid
 params.length:1000
 
-#get请求需要
+#get请求可能需要
 needEncode:true
 ```
 
