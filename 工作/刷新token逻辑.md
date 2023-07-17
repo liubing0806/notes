@@ -10,4 +10,4 @@
 - 无回调地址
 正常进行调用和刷新
 
-![](https://lbnote-1304107363.cos.ap-nanjing.myqcloud.com/202307171618232.png)
+![](https://lbnote-1304107363.cos.ap-nanjing.myqcloud.com/202307171626704.png)
