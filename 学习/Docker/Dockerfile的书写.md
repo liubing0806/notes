@@ -5,4 +5,10 @@
 ![](https://lbnote-1304107363.cos.ap-nanjing.myqcloud.com/202307201320110.png)
 如果把容器比喻成"样板间",那么dockerfile就是"施工图纸"
 语法如下:
-- FROM 选择基础镜像,如
+- FROM 选择基础镜像
+- CMD
+- RUN
+- COPY
+- ARG
+- ENV
+- EXPOSE
