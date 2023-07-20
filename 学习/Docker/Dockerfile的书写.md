@@ -6,8 +6,8 @@
 如果把容器比喻成"样板间",那么dockerfile就是"施工图纸"
 语法如下:
 - FROM 选择基础镜像
-- CMD
-- RUN
+- CMD 容器启动时候的动作
+- RUN 
 - COPY
 - ARG
 - ENV
