@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/API数据接入技术文档及插件说明.md",
+                "file": "工作/亚马逊API接入.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作/API数据接入技术文档及插件说明.md",
+                "file": "工作/亚马逊API接入.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作/API数据接入技术文档及插件说明.md",
+                "file": "工作/亚马逊API接入.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/API数据接入技术文档及插件说明.md"
+                "file": "工作/亚马逊API接入.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "6ab36741beeb89aa",
   "lastOpenFiles": [
+    "工作/API数据接入技术文档及插件说明.md",
     "工作/刷新token逻辑.md",
     "工作/亚马逊API接入.md",
     "学习/Linux/常用操作.md",
