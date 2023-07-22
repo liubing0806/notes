@@ -13,13 +13,122 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/Linux/常用操作.md",
+                "file": "学习/Docker/Dockerfile的书写.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b690d6ad5943f42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50c9477d280188c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d31a7f17977bd72d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEP4--dnsutils.yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e08318a290b6e7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEP5.2--MySQL-pvc.yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a144ec2b0bb6fda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEP5.2--MySQL-pvc.yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56958e125b6a8274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEP5.3--MySQL.yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2434ed187a96d00c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEP6.1--Redis-pv.yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca5afd5de9f804c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEP6.1--Redis-pv.yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "327dc1eafc180fb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEP6.3--Redis.yaml.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -85,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/Linux/常用操作.md",
+                "file": "STEP6.3--Redis.yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/Linux/常用操作.md",
+                "file": "STEP6.3--Redis.yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/Linux/常用操作.md"
+                "file": "STEP6.3--Redis.yaml.md"
               }
             }
           }
@@ -146,18 +255,35 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6ab36741beeb89aa",
+  "active": "327dc1eafc180fb4",
   "lastOpenFiles": [
+    "STEP6.1--Redis-pv.yaml.md",
+    "STEP6.3--Redis.yaml.md",
+    "STEP6.2--Redis-pvc.yaml.md",
+    "STEP5.3--MySQL.yaml.md",
+    "未命名",
+    "STEP5.2--MySQL-pvc.yaml.md",
+    "STEP5.1--MySQL-pv.yaml.md",
+    "STEP4--dnsutils.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP3--nginx-conf.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP0.3--nginx-conf.yaml",
+    "工作/云眼K8s/k8s.yaml/STEP1--namespace.yaml.md",
+    "工作/云眼K8s/k8s.yaml/README.md",
+    "学习/Docker/Dockerfile的书写.md",
+    "工作/云眼K8s/k8s.yaml/STEP2.1--cloud-eyes.yaml",
+    "工作/云眼K8s/k8s.yaml/STEP2.1--cube-web.yaml",
+    "工作/云眼K8s/k8s.yaml/STEP1.3--redis.yaml",
+    "工作/云眼K8s/k8s.yaml/STEP1.2--MySQL.yaml",
+    "工作/云眼K8s/k8s.yaml/STEP1.1--dnsutils.yaml",
+    "工作/云眼K8s/k8s.yaml/STEP0.2--configmap.yaml",
+    "工作/云眼K8s/k8s.yaml/STEP0.1--namespace.yaml",
+    "工作/云眼K8s/k8s.yaml/STEP0.0--README",
     "工作/亚马逊API接入.md",
+    "学习/Linux/常用操作.md",
     "工作/API数据接入技术文档及插件说明.md",
     "工作/刷新token逻辑.md",
-    "学习/Linux/常用操作.md",
     "学习/Linux/Tinyproxy安装及使用.md",
-    "学习/Linux",
-    "学习/Docker/Dockerfile的书写.md",
-    "学习/Docker",
-    "学习/Kubernetes/基本概念.md",
-    "学习/Kubernetes",
-    "学习"
+    "学习/Kubernetes/基本概念.md"
   ]
 }
