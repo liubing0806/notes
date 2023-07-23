@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/Docker/Dockerfile的书写.md",
+                "file": "学习/ansible/模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/Docker/Dockerfile的书写.md",
+                "file": "学习/ansible/模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/Docker/Dockerfile的书写.md"
+                "file": "学习/ansible/模块.md"
               }
             }
           },
@@ -289,8 +289,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7fdde19c15a7b81b",
+  "active": "ee9fa4cd925a87eb",
   "lastOpenFiles": [
+    "学习/Docker/Dockerfile的书写.md",
     "Ansible-command模块和shell模块.md",
     "工作/云眼K8s/k8s.yaml/STEP1--namespace.yaml.md",
     "学习/ansible/模块.md",
@@ -308,7 +309,6 @@
     "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP0.3--nginx-conf.yaml",
-    "学习/Docker/Dockerfile的书写.md",
     "工作/云眼K8s/k8s.yaml/STEP2.1--cloud-eyes.yaml",
     "工作/云眼K8s/k8s.yaml/STEP2.1--cube-web.yaml",
     "工作/云眼K8s/k8s.yaml/STEP1.3--redis.yaml",
