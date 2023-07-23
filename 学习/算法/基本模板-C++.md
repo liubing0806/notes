@@ -8,7 +8,7 @@
 接下来继续这么操作，直到这个区间只有一个数字之后完成排序  
 平均时间复杂度`O(nlogn)`
 
-```
+``` c++
 void quick_sort(int q[], int l, int r)
 {
     if (l >= r) return;
@@ -26,7 +26,7 @@ void quick_sort(int q[], int l, int r)
 
 ### 归并排序
 
-```
+```  c++
 void merge_sort(int q[], int l, int r)
 {
     if (l >= r) return;
@@ -51,7 +51,7 @@ void merge_sort(int q[], int l, int r)
 
 ### 整数二分
 
-```
+```  c++
 bool check(int x) {/* ... */} // 检查x是否满足某种性质
 
 // 区间[l, r]被划分成[l, mid]和[mid + 1, r]时使用：
@@ -80,7 +80,7 @@ int bsearch_2(int l, int r)
 
 ### 浮点二分
 
-```
+```  c++
 bool check(double x) {/* ... */} // 检查x是否满足某种性质
 
 double bsearch_3(double l, double r)
@@ -99,52 +99,42 @@ double bsearch_3(double l, double r)
 
 ### 位运算
 
-```
+```  c++
 求n的第k位数字: n >> k & 1
 返回n的最后一位1：lowbit(n) = n & -n
-
-
 ```
 
 ### 一维前缀和
 
-```
+```  c++
 S[i] = a[1] + a[2] + ... a[i]
 a[l] + ... + a[r] = S[r] - S[l - 1]
-
-
 ```
 
 ### 二维前缀和
 
-```
+```  c++
 S[i, j] = 第i行j列格子左上部分所有元素的和
 以(x1, y1)为左上角，(x2, y2)为右下角的子矩阵的和为：
 S[x2, y2] - S[x1 - 1, y2] - S[x2, y1 - 1] + S[x1 - 1, y1 - 1]
-
-
 ```
 
 ### 一维差分
 
-```
+```  c++
 给区间[l, r]中的每个数加上c：B[l] += c, B[r + 1] -= c
-
-
 ```
 
 ### 二维差分
 
-```
+```  c++
 给以(x1, y1)为左上角，(x2, y2)为右下角的子矩阵中的所有元素加上c：
 S[x1, y1] += c, S[x2 + 1, y1] -= c, S[x1, y2 + 1] -= c, S[x2 + 1, y2 + 1] += c
-
-
 ```
 
 ### 离散化
 
-```
+```  c++
 vector<int> alls; // 存储所有待离散化的值
 sort(alls.begin(), alls.end()); // 将所有值排序
 alls.erase(unique(alls.begin(), alls.end()), alls.end());   // 去掉重复元素
@@ -168,7 +158,7 @@ int find(int x) // 找到第一个大于等于x的位置
 
 ### 区间合并
 
-```
+```  c++
 // 将所有存在交集的区间合并
 void merge(vector<PII> &segs)
 {
@@ -197,7 +187,7 @@ void merge(vector<PII> &segs)
 
 ### 单链表
 
-```
+```  c++
 // head存储链表头，e[]存储节点的值，ne[]存储节点的next指针，idx表示当前用到了哪个节点
 int head, e[N], ne[N], idx;
 
@@ -224,7 +214,7 @@ void remove()
 
 ### 双链表
 
-```
+```  c++
 // e[]表示节点的值，l[]表示节点的左指针，r[]表示节点的右指针，idx表示当前用到了哪个节点
 int e[N], l[N], r[N], idx;
 
