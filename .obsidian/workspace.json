@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEP4--dnsutils.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEP5.2--MySQL-pvc.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP5.2--MySQL-pvc.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEP5.2--MySQL-pvc.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP5.2--MySQL-pvc.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEP5.3--MySQL.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP5.3--MySQL.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEP6.1--Redis-pv.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP6.1--Redis-pv.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEP6.1--Redis-pv.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP6.1--Redis-pv.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEP6.3--Redis.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEP7--cloud-eyes.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md"
               }
             }
           }
@@ -279,18 +279,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ee9fa4cd925a87eb",
+  "active": "ef107825ed7e0c96",
   "lastOpenFiles": [
-    "STEP7--cloud-eyes.yaml.md",
     "未命名.md",
-    "STEP6.3--Redis.yaml.md",
-    "STEP6.1--Redis-pv.yaml.md",
-    "STEP6.2--Redis-pvc.yaml.md",
-    "STEP5.3--MySQL.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP6.1--Redis-pv.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP6.2--Redis-pvc.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP5.3--MySQL.yaml.md",
     "未命名",
-    "STEP5.2--MySQL-pvc.yaml.md",
-    "STEP5.1--MySQL-pv.yaml.md",
-    "STEP4--dnsutils.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP5.2--MySQL-pvc.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP3--nginx-conf.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP0.3--nginx-conf.yaml",
