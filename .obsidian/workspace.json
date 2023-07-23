@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md"
+                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md"
               }
             }
           },
@@ -279,19 +279,19 @@
   },
   "active": "72162ffd9ed5b13e",
   "lastOpenFiles": [
+    "工作/云眼K8s/k8s.yaml/STEP8--frontend.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP5.3--MySQL.yaml.md",
-    "工作/云眼K8s/k8s.yaml/STEP6.1--Redis-pv.yaml.md",
-    "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
-    "工作/云眼K8s/k8s.yaml/STEP6.2--Redis-pvc.yaml.md",
-    "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP5.2--MySQL-pvc.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP3--nginx-conf.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP1--namespace.yaml.md",
-    "STEP8--frontend.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP6.1--Redis-pv.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP6.2--Redis-pvc.yaml.md",
     "未命名",
-    "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
     "学习/算法/基本模板-C++.md",
     "学习/Docker/Dockerfile的书写.md",
     "工作/API数据接入技术文档及插件说明.md",

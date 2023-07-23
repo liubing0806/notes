@@ -20,6 +20,7 @@ spec:
         nodeSelectorTerms:
 
         - matchExpressions:
+        ## 节点亲和性，以便在调度时将Pod调度到具有键`apps.k8s.cfuture/cloud-eyes`的节点上。
 
           - key: apps.k8s.cfuture/cloud-eyes
 

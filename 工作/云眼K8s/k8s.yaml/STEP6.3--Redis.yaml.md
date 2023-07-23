@@ -19,7 +19,7 @@ spec:
 
       company: yucekj.com
 
-      app: datacube
+      app: cloud-eyes
 
       tier: redis
 
@@ -47,7 +47,7 @@ spec:
 
             - matchExpressions:
 
-              - key: apps.k8s.cfuture/datacube
+              - key: apps.k8s.cfuture/cloud-eyes
 
                 operator: Exists
 
@@ -73,7 +73,7 @@ spec:
 
             cpu: 500m
 
-            memory: 1024Mi
+            memory: 2048Mi
 
 ---
 
@@ -95,7 +95,7 @@ spec:
 
     company: yucekj.com
 
-    app: datacube
+    app: cloud-eyes
 
     tier: redis
 
