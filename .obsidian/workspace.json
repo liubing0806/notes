@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/ansible/模块.md",
+                "file": "学习/Docker/Dockerfile的书写.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/ansible/模块.md",
+                "file": "学习/Docker/Dockerfile的书写.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/ansible/模块.md",
+                "file": "学习/Docker/Dockerfile的书写.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/ansible/模块.md"
+                "file": "学习/Docker/Dockerfile的书写.md"
               }
             }
           },
@@ -291,10 +291,11 @@
   },
   "active": "ee9fa4cd925a87eb",
   "lastOpenFiles": [
+    "学习/Docker/Docke-compose.md",
     "学习/Docker/Dockerfile的书写.md",
+    "学习/ansible/模块.md",
     "Ansible-command模块和shell模块.md",
     "工作/云眼K8s/k8s.yaml/STEP1--namespace.yaml.md",
-    "学习/ansible/模块.md",
     "未命名.md",
     "学习/ansible",
     "工作/云眼K8s/k8s.yaml/README.md",
