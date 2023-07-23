@@ -1,4 +1,4 @@
-```
+``` bash
 wget https://github.com/tinyproxy/tinyproxy/releases/download/1.10.0/tinyproxy-1.10.0.tar.gz
 
 tar -zxvf tinyproxy-1.10.0.tar.gz
@@ -17,11 +17,11 @@ tinyproxy -v
 tinyproxy 1.10.0
 ```
 
-```
+``` bash
 /etc/tinyproxy/tinyproxy.conf
 ```
 
-```
+``` bash
 # 注释掉这行，允许所有ip访问
 # Allow 127.0.0.1
 
@@ -29,7 +29,7 @@ tinyproxy 1.10.0
 BasicAuth user 123456
 ```
 指定配置文件启动
-```
+``` bash
 # 启动（不采用后台启动，方便调试）
 tinyproxy -d -c /etc/tinyproxy/tinyproxy.conf
 
@@ -43,7 +43,7 @@ ps -ef|grep tinyproxy|grep -v grep|awk '{print "kill -9 "$2}'|sh
 
 
 验证:
-```
+``` bash
 # 不加验证参数不会正常返回
 curl -x http://127.0.0.1:8888 www.baidu.com
 Proxy Authentication Required

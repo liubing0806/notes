@@ -244,7 +244,7 @@ void remove(int a)
 
 ### 栈
 
-```
+```c++
 
 // e[]表示节点的值，l[]表示节点的左指针，r[]表示节点的右指针，idx表示当前用到了哪个节点
 int e[N], l[N], r[N], idx;
@@ -278,7 +278,7 @@ void remove(int a)
 
 ### 队列
 
-```
+```c++
 // hh 表示队头，tt表示队尾
 int q[N], hh = 0, tt = -1;
 
@@ -302,7 +302,7 @@ if (hh <= tt)
 
 ### 循环队列
 
-```
+```c++
 int q[N], hh = 0, tt = 0;
 
 // 向队尾插入一个数
@@ -327,7 +327,7 @@ if (hh != tt)
 
 ### 单调栈
 
-```
+```c++
 
 常见模型：找出每个数左边离它最近的比它大/小的数
 int tt = 0;
@@ -341,7 +341,7 @@ for (int i = 1; i <= n; i ++ )
 
 ### 单调队列
 
-```
+```c++
 
 常见模型：找出滑动窗口中的最大值/最小值
 int hh = 0, tt = -1;
@@ -356,7 +356,7 @@ for (int i = 0; i < n; i ++ )
 
 ### KMP
 
-```
+```c++
 
 // s[]是长文本，p[]是模式串，n是s的长度，m是p的长度
 求模式串的Next数组：
@@ -385,7 +385,7 @@ for (int i = 1, j = 0; i <= n; i ++ )
 
 ### Trie
 
-```
+```c++
 
 int son[N][26], cnt[N], idx;
 // 0号点既是根节点，又是空节点
@@ -423,7 +423,7 @@ int query(char *str)
 
 ### 并查集
 
-```
+```c++
 
 (1)朴素并查集：
 
@@ -499,7 +499,7 @@ int query(char *str)
 
 ### 堆
 
-```
+```c++
 
 // h[N]存储堆中的值, h[1]是堆顶，x的左儿子是2x, 右儿子是2x + 1
 // ph[k]存储第k个插入的点在堆中的位置
@@ -543,7 +543,7 @@ for (int i = n / 2; i; i -- ) down(i);
 
 ### 一般哈希
 
-```
+```c++
 
 (1) 拉链法
     int h[N], e[N], ne[N], idx;
@@ -588,7 +588,7 @@ for (int i = n / 2; i; i -- ) down(i);
 
 ### 字符串哈希
 
-```
+```c++
 
 核心思想：将字符串看成P进制数，P的经验值是131或13331，取这两个值的冲突概率低
 小技巧：取模的数用2^64，这样直接用unsigned long long存储，溢出的结果就是取模的结果
@@ -615,7 +615,7 @@ ULL get(int l, int r)
 
 ### STL相关
 
-```
+```c++
 
 vector, 变长数组，倍增的思想
     size()  返回元素个数
@@ -732,7 +732,7 @@ bitset, 圧位
 
 (2) 邻接表：
 
-```
+```c++
 // 对于每个点k，开一个单链表，存储k所有可以走到的点。h[k]存储这个单链表的头结点
 int h[N], e[N], ne[N], idx;
 
@@ -752,7 +752,7 @@ memset(h, -1, sizeof h);
 
 #### dfs
 
-```
+```c++
 
 int dfs(int u)
 {
@@ -769,7 +769,7 @@ int dfs(int u)
 
 #### bfs
 
-```
+```c++
 
 queue<int> q;
 st[1] = true; // 表示1号点已经被遍历过
@@ -795,7 +795,7 @@ while (q.size())
 
 ### 拓扑排序
 
-```
+```c++
 
 bool topsort()
 {
@@ -826,7 +826,7 @@ bool topsort()
 
 ### 朴素dijkstra
 
-```
+```c++
 
 int g[N][N];  // 存储每条边
 int dist[N];  // 存储1号点到每个点的最短距离
@@ -861,7 +861,7 @@ int dijkstra()
 
 ### 堆优化dijkstra
 
-```
+```c++
 
 typedef pair<int, int> PII;
 
@@ -908,7 +908,7 @@ int dijkstra()
 
 ### Bellman-Ford算法
 
-```
+```c++
 int n, m;       // n表示点数，m表示边数
 int dist[N];        // dist[x]存储1到x的最短路距离
 
@@ -942,7 +942,7 @@ int bellman_ford()
 
 ### spfa
 
-```
+```c++
 
 int n;      // 总点数
 int h[N], w[N], e[N], ne[N], idx;       // 邻接表存储所有边
@@ -989,7 +989,7 @@ int spfa()
 
 ### spfa 判断是否存在负环
 
-```
+```c++
 
 int n;      // 总点数
 int h[N], w[N], e[N], ne[N], idx;       // 邻接表存储所有边
@@ -1040,7 +1040,7 @@ bool spfa()
 
 ### floyd
 
-```
+```c++
 
 初始化：
     for (int i = 1; i <= n; i ++ )
@@ -1061,7 +1061,7 @@ void floyd()
 
 ### 朴素prim
 
-```
+```c++
 
 int n;      // n表示点数
 int g[N][N];        // 邻接矩阵，存储所有边
@@ -1099,7 +1099,7 @@ int prim()
 
 ### Kruskal算法
 
-```
+```c++
 
 int n, m;       // n是点数，m是边数
 int p[N];       // 并查集的父节点数组
@@ -1148,7 +1148,7 @@ int kruskal()
 
 ### 染色法判别二分图
 
-```
+```c++
 
 int n;      // n表示点数
 int h[N], e[M], ne[M], idx;     // 邻接表存储图
@@ -1188,7 +1188,7 @@ bool check()
 
 ### 匈牙利算法
 
-```
+```c++
 
 int n1, n2;     // n1表示第一个集合中的点数，n2表示第二个集合中的点数
 int h[N], e[M], ne[M], idx;     // 邻接表存储所有边，匈牙利算法中只会用到从第一个集合指向第二个集合的边，所以这里只用存一个方向的边
@@ -1228,7 +1228,7 @@ for (int i = 1; i <= n1; i ++ )
 
 ### 试除法判定质数
 
-```
+```c++
 
 bool is_prime(int x)
 {
@@ -1244,7 +1244,7 @@ bool is_prime(int x)
 
 ### 试除法分解质因数
 
-```
+```c++
 
 void divide(int x)
 {
@@ -1263,7 +1263,7 @@ void divide(int x)
 
 ### 朴素筛法求素数
 
-```
+```c++
 
 int primes[N], cnt;     // primes[]存储所有素数
 bool st[N];         // st[x]存储x是否被筛掉
@@ -1283,7 +1283,7 @@ void get_primes(int n)
 
 ### 线性筛法求素数
 
-```
+```c++
 
 int primes[N], cnt;     // primes[]存储所有素数
 bool st[N];         // st[x]存储x是否被筛掉
@@ -1305,7 +1305,7 @@ void get_primes(int n)
 
 ### 试除法求所有约数
 
-```
+```c++
 
 vector<int> get_divisors(int x)
 {
@@ -1324,18 +1324,17 @@ vector<int> get_divisors(int x)
 
 ### 约数个数和约数之和
 
-```
+```c++
 
 如果 N = p1^c1 * p2^c2 * ... *pk^ck
 约数个数： (c1 + 1) * (c2 + 1) * ... * (ck + 1)
 约数之和： (p1^0 + p1^1 + ... + p1^c1) * ... * (pk^0 + pk^1 + ... + pk^ck)
 
-
 ```
 
 ### 欧几里得算法
 
-```
+```c++
 
 int gcd(int a, int b)
 {
@@ -1346,7 +1345,7 @@ int gcd(int a, int b)
 
 ### 求欧拉函数
 
-```
+```c++
 
 int phi(int x)
 {
@@ -1367,7 +1366,7 @@ int phi(int x)
 
 ### 筛法求欧拉函数
 
-```
+```c++
 
 int primes[N], cnt;     // primes[]存储所有素数
 int euler[N];           // 存储每个数的欧拉函数
@@ -1402,7 +1401,7 @@ void get_eulers(int n)
 
 ### 快速幂
 
-```
+```c++
 
 求 m^k mod p，时间复杂度 O(logk)。
 
@@ -1422,7 +1421,7 @@ int qmi(int m, int k, int p)
 
 ### 扩展欧几里得算法
 
-```
+```c++
 
 // 求x, y，使得ax + by = gcd(a, b)
 int exgcd(int a, int b, int &x, int &y)
@@ -1441,7 +1440,7 @@ int exgcd(int a, int b, int &x, int &y)
 
 ### 高斯消元
 
-```
+```c++
 
 // a[N][N]是增广矩阵
 int gauss()
@@ -1485,7 +1484,7 @@ int gauss()
 
 ### 递归法求组合数
 
-```
+```c++
 
 // c[a][b] 表示从a个苹果中选b个的方案数
 for (int i = 0; i < N; i ++ )
@@ -1497,7 +1496,7 @@ for (int i = 0; i < N; i ++ )
 
 ### 通过预处理逆元的方式求组合数
 
-```
+```c++
 
 首先预处理出所有阶乘取模的余数fact[N]，以及所有阶乘取模的逆元infact[N]
 如果取模的数是质数，可以用费马小定理求逆元
@@ -1526,7 +1525,7 @@ for (int i = 1; i < N; i ++ )
 
 ### Lucas定理
 
-```
+```c++
 
 若p是质数，则对于任意整数 1 <= m <= n，有：
     C(n, m) = C(n % p, m % p) * C(n / p, m / p) (mod p)
@@ -1567,7 +1566,7 @@ int lucas(LL a, LL b, int p)
 
 ### 分解质因数法求组合数
 
-```
+```c++
 
 当我们需要求出组合数的真实值，而非对某个数的余数时，分解质因数的方式比较好用：
     1. 筛法求出范围内的所有质数

@@ -32,13 +32,13 @@ Compose 中有两个重要的概念：
 
   
 
-```
+``` bash
 
 # docker-compose版本选择:https://github.com/docker/compose/releases
 
-# curl -L https://github.com/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+ curl -L https://github.com/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
-# chmod +x /usr/local/bin/docker-compose
+ chmod +x /usr/local/bin/docker-compose
 
 ```
 
@@ -48,7 +48,7 @@ Compose 中有两个重要的概念：
 
   
 
-```
+```bash
 
 Compose 大部分命令的对象即可以是项目的本身，也可以是指定为项目中的服务或者容器
 
@@ -147,7 +147,7 @@ version    输出版本
 
   
 
-```
+```bash
 
 举个简单的例子来具有的说明一下 Compose 的使用
 

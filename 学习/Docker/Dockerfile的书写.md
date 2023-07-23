@@ -14,15 +14,15 @@ Compose 中有两个重要的概念：
 
 ### 1.2、 安装
 
-```
+```bash
 # docker-compose版本选择:https://github.com/docker/compose/releases
-# curl -L https://github.com/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-# chmod +x /usr/local/bin/docker-compose
+ curl -L https://github.com/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+ chmod +x /usr/local/bin/docker-compose
 ```
 
 ### 1.3、 命令
 
-```
+```bash
 Compose 大部分命令的对象即可以是项目的本身，也可以是指定为项目中的服务或者容器
 执行docker-compose [COMMAND] --help 或者docker-compose help [COMMAND]可以查看命令的帮助信息
 具体的使用格式
@@ -71,7 +71,7 @@ version    输出版本
 
 ### 1.5、 示例
 
-```
+```bash
 举个简单的例子来具有的说明一下 Compose 的使用
 
 1. 创建一个目录(里面包含需要的文件)

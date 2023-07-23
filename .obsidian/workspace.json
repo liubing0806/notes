@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/算法/基本模板-C++.md",
+                "file": "学习/Linux/Tinyproxy安装及使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/算法/基本模板-C++.md",
+                "file": "学习/Linux/Tinyproxy安装及使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/算法/基本模板-C++.md",
+                "file": "学习/Linux/Tinyproxy安装及使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/算法/基本模板-C++.md"
+                "file": "学习/Linux/Tinyproxy安装及使用.md"
               }
             }
           },
@@ -291,14 +291,15 @@
   },
   "active": "ee9fa4cd925a87eb",
   "lastOpenFiles": [
-    "学习/设计模式/单例模式.md",
-    "学习/算法/基本模板-C++.md",
-    "学习/算法",
+    "学习/Linux/常用操作.md",
     "学习/Kubernetes/基本概念.md",
-    "学习/设计模式",
     "学习/Docker/Dockerfile的书写.md",
     "学习/Docker/Docke-compose.md",
     "学习/ansible/模块.md",
+    "学习/设计模式/单例模式.md",
+    "学习/算法/基本模板-C++.md",
+    "学习/算法",
+    "学习/设计模式",
     "Ansible-command模块和shell模块.md",
     "工作/云眼K8s/k8s.yaml/STEP1--namespace.yaml.md",
     "未命名.md",
@@ -322,7 +323,6 @@
     "工作/云眼K8s/k8s.yaml/STEP1.1--dnsutils.yaml",
     "工作/云眼K8s/k8s.yaml/STEP0.2--configmap.yaml",
     "工作/亚马逊API接入.md",
-    "学习/Linux/常用操作.md",
     "工作/API数据接入技术文档及插件说明.md",
     "工作/刷新token逻辑.md",
     "学习/Linux/Tinyproxy安装及使用.md"
