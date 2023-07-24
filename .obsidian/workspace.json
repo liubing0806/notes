@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
+                "file": "学习/Docker/Dockerfile的书写.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
+                "file": "学习/Docker/Dockerfile的书写.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
+                "file": "学习/Docker/Dockerfile的书写.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md"
+                "file": "学习/Docker/Dockerfile的书写.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "6ab36741beeb89aa",
   "lastOpenFiles": [
+    "学习/Docker/Docke-compose.md",
+    "学习/Docker/Dockerfile的书写.md",
+    "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP3--nginx-conf.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP1--namespace.yaml.md",
     "工作/云眼K8s/k8s.yaml/README.md",
@@ -157,7 +160,6 @@
     "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP5.3--MySQL.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP5.2--MySQL-pvc.yaml.md",
-    "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
     "工作/云眼K8s/k8s.yaml",
@@ -168,9 +170,7 @@
     "学习/算法",
     "学习/ansible/模块.md",
     "学习/ansible",
-    "学习/Docker/Docke-compose.md",
     "学习/Linux/Tinyproxy安装及使用.md",
-    "学习/Docker/Dockerfile的书写.md",
     "学习/Linux/常用操作.md",
     "学习/Docker",
     "工作/API数据接入技术文档及插件说明.md",
