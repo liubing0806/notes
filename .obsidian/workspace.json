@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/亚马逊API接入.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作/亚马逊API接入.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作/亚马逊API接入.md",
+                "file": "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/亚马逊API接入.md"
+                "file": "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "6ab36741beeb89aa",
   "lastOpenFiles": [
+    "工作/云眼K8s/k8s.yaml/STEP3--nginx-conf.yaml.md",
+    "工作/云眼K8s/k8s.yaml/STEP1--namespace.yaml.md",
+    "工作/云眼K8s/k8s.yaml/README.md",
+    "工作/亚马逊API接入.md",
     "工作/云眼K8s/k8s.yaml/STEP8--frontend.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
@@ -155,10 +159,7 @@
     "工作/云眼K8s/k8s.yaml/STEP5.2--MySQL-pvc.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP4--dnsutils.yaml.md",
-    "工作/云眼K8s/k8s.yaml/STEP3--nginx-conf.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
-    "工作/云眼K8s/k8s.yaml/STEP1--namespace.yaml.md",
-    "工作/云眼K8s/k8s.yaml/README.md",
     "工作/云眼K8s/k8s.yaml",
     "工作/云眼K8s",
     "学习/设计模式/单例模式.md",
@@ -169,7 +170,6 @@
     "学习/ansible",
     "学习/Docker/Docke-compose.md",
     "学习/Linux/Tinyproxy安装及使用.md",
-    "工作/亚马逊API接入.md",
     "学习/Docker/Dockerfile的书写.md",
     "学习/Linux/常用操作.md",
     "学习/Docker",
