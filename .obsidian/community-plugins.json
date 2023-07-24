@@ -3,9 +3,9 @@
   "table-editor-obsidian",
   "obsidian-auto-link-title",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-excalidraw-plugin",
   "markdown-prettifier",
   "obsidian-outliner",
   "oz-image-plugin",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-excalidraw-plugin"
 ]
