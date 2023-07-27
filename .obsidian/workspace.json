@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/total.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/total.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
+                "file": "工作/云眼K8s/k8s.yaml/total.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md"
+                "file": "工作/云眼K8s/k8s.yaml/total.md"
               }
             }
           }
@@ -151,12 +151,12 @@
   },
   "active": "6ab36741beeb89aa",
   "lastOpenFiles": [
+    "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP2--configmap.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP3--nginx-conf.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP5.1--MySQL-pv.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP5.3--MySQL.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP5.2--MySQL-pvc.yaml.md",
-    "工作/云眼K8s/k8s.yaml/STEP7--cloud-eyes.yaml.md",
     "工作/云眼K8s/k8s.yaml/STEP6.3--Redis.yaml.md",
     "工作/云眼K8s/k8s.yaml/total.md",
     "工作/云眼K8s/k8s.yaml/STEP8--frontend.yaml.md",
