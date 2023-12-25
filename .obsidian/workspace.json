@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/算法/Java实现/未命名.md",
+                "file": "学习/算法/Java实现/双链表.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/算法/Java实现/未命名.md",
+                "file": "学习/算法/Java实现/双链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/算法/Java实现/未命名.md",
+                "file": "学习/算法/Java实现/双链表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/算法/Java实现/未命名.md"
+                "file": "学习/算法/Java实现/双链表.md"
               }
             }
           }
@@ -151,8 +151,9 @@
   },
   "active": "6ab36741beeb89aa",
   "lastOpenFiles": [
-    "学习/算法/Java实现/Trie 字典树.md",
+    "学习/算法/Java实现/二维差分.md",
     "学习/算法/Java实现/未命名.md",
+    "学习/算法/Java实现/Trie 字典树.md",
     "学习/算法/Java实现/KMP.md",
     "学习/算法/Java实现/单调队列.md",
     "学习/算法/Java实现/单调栈.md",
@@ -163,7 +164,6 @@
     "学习/算法/Java实现/单链表.md",
     "学习/算法/Java实现/区间合并.md",
     "学习/算法/Java实现/离散化.md",
-    "学习/算法/Java实现/二维差分.md",
     "学习/算法/Java实现/一维差分.md",
     "学习/算法/Java实现/二维前缀和.md",
     "学习/算法/Java实现/一维前缀和.md",
