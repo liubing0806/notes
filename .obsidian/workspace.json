@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa240b34a5dcf7ad",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +160,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6ab36741beeb89aa",
+  "active": "fa240b34a5dcf7ad",
   "lastOpenFiles": [
     "学习/算法/Java实现/单调队列.md",
     "学习/Linux/负载均衡LVS",
