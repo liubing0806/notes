@@ -8,31 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ab36741beeb89aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/Kubernetes/基本概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fa240b34a5dcf7ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "学习/Kubernetes/基本概念.md",
-                "mode": "source",
-                "source": false
+                "file": "学习/Kubernetes/整体思维导图.jpg"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/Kubernetes/基本概念.md",
+                "file": "学习/Kubernetes/整体思维导图.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/Kubernetes/基本概念.md",
+                "file": "学习/Kubernetes/整体思维导图.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/Kubernetes/基本概念.md"
+                "file": "学习/Kubernetes/整体思维导图.jpg"
               }
             }
           }
@@ -162,8 +147,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ef107825ed7e0c96",
+  "active": "fa240b34a5dcf7ad",
   "lastOpenFiles": [
+    "学习/Kubernetes/整体思维导图.jpg",
+    "学习/Kubernetes/整体思维导图.xmind",
+    "学习/Kubernetes/基本概念.md",
     "学习/算法/Java实现/单调队列.md",
     "学习/Linux/负载均衡LVS",
     "学习/算法/Java实现/单调栈.md",
@@ -189,7 +177,6 @@
     "学习/算法/Java实现/未命名",
     "学习/算法/基本模板-C++.md",
     "学习/算法/Java实现",
-    "学习/Kubernetes/基本概念.md",
     "学习/设计模式/单例模式.md",
     "学习/计算机网络",
     "学习/操作系统",
@@ -198,7 +185,6 @@
     "学习/MySQL",
     "学习/redis",
     "工作/云眼K8s/k8s.yaml/total.md",
-    "Excalidraw",
     "Pasted image 20230717160422.png"
   ]
 }
