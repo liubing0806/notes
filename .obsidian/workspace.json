@@ -11,9 +11,9 @@
             "id": "fa240b34a5dcf7ad",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "学习/Kubernetes/整体思维导图.jpg"
+                "file": "学习/Kubernetes/整体架构.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/Kubernetes/整体思维导图.jpg",
+                "file": "学习/Kubernetes/整体架构.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/Kubernetes/整体思维导图.jpg",
+                "file": "学习/Kubernetes/整体架构.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/Kubernetes/整体思维导图.jpg"
+                "file": "学习/Kubernetes/整体架构.pdf"
               }
             }
           }
@@ -147,8 +147,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "fa240b34a5dcf7ad",
+  "active": "ef107825ed7e0c96",
   "lastOpenFiles": [
+    "学习/Kubernetes/微服务实战",
+    "学习/Kubernetes/运维管理",
+    "学习/Kubernetes/k8s 实战进阶",
+    "学习/Kubernetes/核心概念",
+    "学习/Kubernetes/整体架构.pdf",
     "学习/Kubernetes/整体思维导图.jpg",
     "学习/Kubernetes/整体思维导图.xmind",
     "学习/Kubernetes/基本概念.md",
@@ -180,10 +185,6 @@
     "学习/设计模式/单例模式.md",
     "学习/计算机网络",
     "学习/操作系统",
-    "学习/Spring Boot",
-    "学习/Spring",
-    "学习/MySQL",
-    "学习/redis",
     "工作/云眼K8s/k8s.yaml/total.md",
     "Pasted image 20230717160422.png"
   ]
